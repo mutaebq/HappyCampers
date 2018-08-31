@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19368F502138970600DC735D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19368F4F2138970600DC735D /* CustomTextField.swift */; };
+		19368F522138A1A900DC735D /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19368F512138A1A900DC735D /* ImageCell.swift */; };
+		19368F542138A2C300DC735D /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19368F532138A2C300DC735D /* DetailVC.swift */; };
+		19368F5A2138A78000DC735D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19368F592138A78000DC735D /* DataService.swift */; };
+		19368F5C2138A8DA00DC735D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19368F5B2138A8DA00DC735D /* Image.swift */; };
 		197E2E9A2138941900F03267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197E2E992138941900F03267 /* AppDelegate.swift */; };
-		197E2E9C2138941900F03267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197E2E9B2138941900F03267 /* ViewController.swift */; };
+		197E2E9C2138941900F03267 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197E2E9B2138941900F03267 /* SearchVC.swift */; };
 		197E2E9F2138941A00F03267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197E2E9D2138941A00F03267 /* Main.storyboard */; };
 		197E2EA12138941F00F03267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197E2EA02138941F00F03267 /* Assets.xcassets */; };
 		197E2EA42138941F00F03267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197E2EA22138941F00F03267 /* LaunchScreen.storyboard */; };
+		25D3C57B0E232AC42C651042 /* Pods_Happy_Campers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A840AC7EA24F8ED94F4E39E /* Pods_Happy_Campers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19368F4F2138970600DC735D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		19368F512138A1A900DC735D /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		19368F532138A2C300DC735D /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		19368F592138A78000DC735D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		19368F5B2138A8DA00DC735D /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		197E2E962138941900F03267 /* Happy Campers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Campers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		197E2E992138941900F03267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		197E2E9B2138941900F03267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		197E2E9B2138941900F03267 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		197E2E9E2138941A00F03267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		197E2EA02138941F00F03267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		197E2EA32138941F00F03267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197E2EA52138941F00F03267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A840AC7EA24F8ED94F4E39E /* Pods_Happy_Campers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy_Campers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D935527A5DDC92D2882FDBF1 /* Pods-Happy Campers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Campers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Campers/Pods-Happy Campers.debug.xcconfig"; sourceTree = "<group>"; };
+		F070FC5894BB524B5839ADA6 /* Pods-Happy Campers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Campers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Campers/Pods-Happy Campers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D3C57B0E232AC42C651042 /* Pods_Happy_Campers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19368F4C2138968500DC735D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				197E2E9B2138941900F03267 /* SearchVC.swift */,
+				19368F532138A2C300DC735D /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19368F4D2138969500DC735D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19368F4F2138970600DC735D /* CustomTextField.swift */,
+				19368F512138A1A900DC735D /* ImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19368F4E2138969D00DC735D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19368F5B2138A8DA00DC735D /* Image.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19368F582138A76D00DC735D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19368F592138A78000DC735D /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		197E2E8D2138941900F03267 = {
 			isa = PBXGroup;
 			children = (
 				197E2E982138941900F03267 /* Happy Campers */,
 				197E2E972138941900F03267 /* Products */,
+				BEABFD2B882C521FE806D8D9 /* Pods */,
+				C3DBF53FBB053534A7B2584B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,34 @@
 		197E2E982138941900F03267 /* Happy Campers */ = {
 			isa = PBXGroup;
 			children = (
+				19368F582138A76D00DC735D /* Services */,
+				19368F4E2138969D00DC735D /* Model */,
+				19368F4D2138969500DC735D /* View */,
+				19368F4C2138968500DC735D /* Controller */,
 				197E2E992138941900F03267 /* AppDelegate.swift */,
-				197E2E9B2138941900F03267 /* ViewController.swift */,
 				197E2E9D2138941A00F03267 /* Main.storyboard */,
 				197E2EA02138941F00F03267 /* Assets.xcassets */,
 				197E2EA22138941F00F03267 /* LaunchScreen.storyboard */,
 				197E2EA52138941F00F03267 /* Info.plist */,
 			);
 			path = "Happy Campers";
+			sourceTree = "<group>";
+		};
+		BEABFD2B882C521FE806D8D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D935527A5DDC92D2882FDBF1 /* Pods-Happy Campers.debug.xcconfig */,
+				F070FC5894BB524B5839ADA6 /* Pods-Happy Campers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3DBF53FBB053534A7B2584B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A840AC7EA24F8ED94F4E39E /* Pods_Happy_Campers.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 197E2EA82138941F00F03267 /* Build configuration list for PBXNativeTarget "Happy Campers" */;
 			buildPhases = (
+				E0945B97DF88465329702741 /* [CP] Check Pods Manifest.lock */,
 				197E2E922138941900F03267 /* Sources */,
 				197E2E932138941900F03267 /* Frameworks */,
 				197E2E942138941900F03267 /* Resources */,
+				602C288F20541F10B497321C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +203,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		602C288F20541F10B497321C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Happy Campers/Pods-Happy Campers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Campers/Pods-Happy Campers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0945B97DF88465329702741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Happy Campers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		197E2E922138941900F03267 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197E2E9C2138941900F03267 /* ViewController.swift in Sources */,
+				19368F542138A2C300DC735D /* DetailVC.swift in Sources */,
+				19368F5C2138A8DA00DC735D /* Image.swift in Sources */,
+				19368F5A2138A78000DC735D /* DataService.swift in Sources */,
+				197E2E9C2138941900F03267 /* SearchVC.swift in Sources */,
+				19368F522138A1A900DC735D /* ImageCell.swift in Sources */,
 				197E2E9A2138941900F03267 /* AppDelegate.swift in Sources */,
+				19368F502138970600DC735D /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +399,13 @@
 		};
 		197E2EA92138941F00F03267 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D935527A5DDC92D2882FDBF1 /* Pods-Happy Campers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPHC5YEV2M;
 				INFOPLIST_FILE = "Happy Campers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +413,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mutaeb.Happy-Campers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		197E2EAA2138941F00F03267 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F070FC5894BB524B5839ADA6 /* Pods-Happy Campers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPHC5YEV2M;
 				INFOPLIST_FILE = "Happy Campers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mutaeb.Happy-Campers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
